@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+	.portfolioList {
+        margin-right: 20px;
+    }
+  }
+.portfolioList {
+    font-size: 14px;
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.portfolioList.active{
+    background-color: #15023a;
+    color: white;
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+  }

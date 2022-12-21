@@ -1,0 +1,282 @@
+@media only screen and (max-width: 400px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        display: flex;
+    }
+    .leftIntro{
+        flex: 0.5;
+        overflow: hidden;
+    }
+    .rightIntro{
+        flex: 0.5
+    }
+    .imageContainer {
+        width: 500px;
+        height: 500px;
+        background-color:  #007FFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .imageContainer img {
+        height: 70%;   
+        width: 70%;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .wrapperIntro{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        align-items: center;
+    }
+    .wrapperIntro h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .wrapperIntro h2{
+        font-size: 25px;
+    }
+    .wrapperIntro h3{
+        font-size: 20px;
+    }
+    .wrapperIntro h3 span{
+        color: #007FFF
+    }
+    .introWrapperA{
+        position: absolute;
+        bottom: 10px;
+        left: 75%;
+    }
+    .introWrapperImg{
+        width: 30px;
+        animation: arrowBlink 1.5s infinite;
+    }
+    @keyframes arrowBlink {
+        100%{
+            opacity: 0;
+        }
+    }
+  }
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        display: flex;
+    }
+
+    .leftIntro{
+        flex: 0.5;
+        overflow: hidden;
+    }
+
+    .rightIntro{
+        flex: 0.5;
+        overflow: hidden;
+    }
+    .imageContainer {
+        width: 600px;
+        height: 600px;
+        background-color:  #007FFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imageContainer img {
+        height: 70%;   
+        width: 70%;
+        padding-left: 0px;
+        padding-bottom: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .wrapperIntro{
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        align-items: center;
+    }
+    .wrapperIntro h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .wrapperIntro h2{
+        font-size: 25px;
+    }
+    .wrapperIntro h3{
+        font-size: 20px;
+    }
+    .wrapperIntro h3 span{
+        color: #007FFF
+    }
+    .introWrapperA{
+        position: absolute;
+        bottom: 10px;
+        left: 75%;
+    }
+    .introWrapperImg{
+        width: 30px;
+        animation: arrowBlink 1.5s infinite;
+    }
+    @keyframes arrowBlink {
+        100%{
+            opacity: 0;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .intro{
+        background-color: white;
+        display: flex;
+    }
+    .leftIntro{
+        flex: 0.5;
+        overflow: hidden;
+    }
+    
+    .rightIntro{
+        flex: 0.5
+    }
+    .imageContainer {
+        width: 600px;
+        height: 600px;
+        background-color:  #007FFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .imageContainer img {
+        height: 60%;
+        width: 60%;
+        padding-bottom: 200px;
+        padding-right: 100px; 
+    }
+    .wrapperIntro{
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .wrapperIntro h1{
+        font-size: 50px;
+        margin: 10px 0;
+    }
+    .wrapperIntro h2{
+        font-size: 35px;
+    }
+    .wrapperIntro h3{
+        font-size: 30px;
+    }
+    .wrapperIntro h3 span{
+        color: #007FFF
+    }
+    .introWrapperA{
+        position: absolute;
+        bottom: 10px;
+        left: 75%;
+    }
+    .introWrapperImg{
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+    }
+    @keyframes arrowBlink {
+        100%{
+            opacity: 0;
+        }
+    }
+    }
+
+@media only screen and (min-width: 1024px) {
+    .intro{
+        background-color: white;
+        display: flex;
+    }
+    .leftIntro{
+        flex: 0.5;
+        overflow: hidden;
+    }
+    
+    .rightIntro{
+        flex: 0.5
+    }
+    .imageContainer {
+        width: 700px;
+        height: 700px;
+        background-color:  #007FFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    .imageContainer img {
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .wrapperIntro{
+        width: 100%;
+        height: 100%;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .wrapperIntro h1{
+        font-size: 60px;
+        margin: 10px 0;
+    }
+    .wrapperIntro h2{
+        font-size: 35px;
+    }
+    .wrapperIntro h3{
+        font-size: 30px;
+    }
+    .wrapperIntro h3 span{
+        color: #007FFF
+    }
+    .introWrapperA{
+        position: absolute;
+        bottom: 10px;
+        left: 75%;
+    }
+    .introWrapperImg{
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+    }
+    @keyframes arrowBlink {
+        100%{
+            opacity: 0;
+        }
+    }
+    }
